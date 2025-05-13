@@ -1,0 +1,33 @@
+{
+    "0x01": {
+      "name": "DEPLOY_ANTENNA_RESPONSE"
+    },
+    "0x02": {
+      "name": "ACTIVATE_HEATER_RESPONSE"
+    },
+    "0x03": {
+      "name": "DEACTIVATE_HEATER_RESPONSE"
+    },
+    "0x04": {
+      "name": "ACTIVATE_BATTERIES_RESPONSE"
+    },
+    "0x05": {
+      "name": "DEACTIVATE_BATTERIES_RESPONSE"
+    },
+    "0x06": {
+      "name": "ACTIVATE_SOLAR_PANEL_RESPONSE"
+    },
+    "0x07": {
+      "name": "DEACTIVATE_SOLAR_PANEL_RESPONSE"
+    },
+    "0x08": {
+      "name": "GET_TEMPERATURE_RESPONSE"
+    },
+    "0x09": {
+      "name": "GET_EPS_STATUS_RESPONSE"
+    },
+    "0x0A": {
+      "name": "GET_LOCATION_RESPONSE"
+    }
+  }
+  

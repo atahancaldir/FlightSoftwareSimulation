@@ -1,0 +1,55 @@
+{
+    "0x01": {
+      "name": "DEPLOY_ANTENNA",
+      "args": ["speed"],
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x01"
+    },
+    "0x02": {
+      "name": "ACTIVATE_HEATER",
+      "args": ["temperature"],
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x02"
+    },
+    "0x03": {
+      "name": "DEACTIVATE_HEATER",
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x03"
+    },
+    "0x04": {
+      "name": "ACTIVATE_BATTERIES",
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x04"
+    },
+    "0x05": {
+      "name": "DEACTIVATE_BATTERIES",
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x05"
+    },
+    "0x06": {
+      "name": "ACTIVATE_SOLAR_PANEL",
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x06"
+    },
+    "0x07": {
+      "name": "DEACTIVATE_SOLAR_PANEL",
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x07"
+    },
+    "0x08": {
+      "name": "GET_TEMPERATURE",
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x08"
+    },
+    "0x09": {
+      "name": "GET_EPS_STATUS",
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x09"
+    },
+    "0x10": {
+      "name": "GET_LOCATION",
+      "valid_modes": ["IDLE", "OPERATIONAL"],
+      "response_code": "0x0A"
+    }
+  }
+  
